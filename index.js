@@ -19,7 +19,7 @@ function divicion() {
   resultado = 5 / 6
   console.log("División 5 / 6 = "+resultado)
 }
-
+  
 suma()
 resta()
 multiplicacion()
