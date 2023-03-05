@@ -1,26 +1,22 @@
-//Suma, reta, multiplicación, división
+//Encontrar el número mayor dentro de un array
 
-function suma() {
-  resultado = 5 + 6
-  console.log("Suma 5 + 6 = "+resultado)
+function maxNumber(){
+  let myarray = [3, 5, 4, 8, 1 ]
+  let maxima = 0
+  let tamano = myarray.length
+
+  for(i=0; i < tamano; i++) {
+    if(myarray[i] > maxima) {
+      maxima = myarray[i]
+    }
+  }
+
+  console.log("MAYOR NÚMERO DENTRO DE UN ARRAY [3 5 4 8 1] es: "+maxima)
 }
 
-function resta() {
-  resultado = 5 - 6
-  console.log("Resta 5 - 6 = "+resultado)
-}
+maxNumber()
 
-function multiplicacion() {
-  resultado = 5 * 6
-  console.log("Multiplicación 5 * 6 = "+resultado)
-}
 
-function divicion() {
-  resultado = 5 / 6
-  console.log("División 5 / 6 = "+resultado)
-}
-  
-suma()
-resta()
-multiplicacion()
-divicion()
+
+
+
